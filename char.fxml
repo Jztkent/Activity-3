@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1062.0" prefWidth="1197.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="charlot.CharController">
+    <stylesheets>
+        <URL value="@char.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="438.0" layoutY="39.0" mnemonicParsing="false" text="Home" textFill="#0400e1" />
+      <Button layoutX="520.0" layoutY="39.0" mnemonicParsing="false" text="Shop" textFill="#0400e1" />
+      <Button layoutX="596.0" layoutY="39.0" mnemonicParsing="false" text="Collection" textFill="#0400e1" />
+      <Button layoutX="771.0" layoutY="39.0" mnemonicParsing="false" text="Size Chart" textFill="#0400e1" />
+      <Button layoutX="698.0" layoutY="39.0" mnemonicParsing="false" text="FAQ" textFill="#0400e1" />
+      <ImageView fitHeight="402.0" fitWidth="1241.0" layoutX="10.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@charlotte%20folk.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="44.0" layoutY="42.0" prefHeight="26.0" prefWidth="135.0" text="CHARLOTTE FOLK" textFill="#0400e1">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="48.0" fitWidth="39.0" layoutX="1169.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CF%20LOGO.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="668.0" layoutY="314.0" text="Iconic pieces for the urban muse." textFill="#0400e1">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="471.0" layoutY="514.0" prefHeight="39.0" prefWidth="366.0" text="Introducng the Football Collection Vol. 001" textFill="#0400e1">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="481.0" fitWidth="416.0" layoutX="28.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@boom.png" />
+         </image>
+      </ImageView>
+      <Line endX="1225.5999755859375" endY="499.29290771484375" layoutX="10.0" layoutY="10.0" opacity="0.24" startX="14.492892265319824" startY="499.29290771484375" />
+      <ImageView fitHeight="197.0" fitWidth="176.0" layoutX="450.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@white.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="167.0" layoutX="634.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@beige.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="157.0" layoutX="831.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@blue%20kids.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="240.0" fitWidth="176.0" layoutX="1026.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@black.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="197.0" fitWidth="135.0" layoutX="456.0" layoutY="774.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@blue%20pants.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="197.0" fitWidth="157.0" layoutX="634.0" layoutY="781.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@blue%20pants%20kids.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="135.0" layoutX="831.0" layoutY="787.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@white%20pants.png" />
+         </image>
+      </ImageView>
+      <Line endX="1225.5999755859375" endY="499.29290771484375" layoutX="9.0" layoutY="577.0" opacity="0.24" startX="14.492892265319824" startY="499.29290771484375" />
+      <Button layoutX="1011.0" layoutY="906.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="206.0" style="-fx-background-color: #0400e1;" text="BUY IT NOW" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="1011.0" layoutY="811.0" prefHeight="26.0" prefWidth="206.0" />
+      <TextField layoutX="1011.0" layoutY="865.0" prefHeight="26.0" prefWidth="206.0" />
+      <Label layoutX="1011.0" layoutY="790.0" text="Size:" textFill="#0400e1" />
+      <Label layoutX="1011.0" layoutY="845.0" text="Quantity:" textFill="#0400e1" />
+      <Label layoutX="580.0" layoutY="1085.0" text="2023, Charlotte Folk" textFill="#0400e1" />
+   </children>
+</AnchorPane>
